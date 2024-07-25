@@ -2098,6 +2098,14 @@ input, select, textarea {
 				opacity: 1.0;
 			}
 
+			.project-image{
+				display: block;
+				margin: 0 0 2em 0;
+				width: 100%;
+
+
+		}
+
 		.image img {
 			border-radius: 0.35em;
 			display: block;
@@ -2550,6 +2558,66 @@ input, select, textarea {
 			color: #b2b2b2 !important;
 			cursor: default;
 		}
+		.project-button {
+			-moz-appearance: none;
+			-webkit-appearance: none;
+			-ms-appearance: none;
+			appearance: none;
+			-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+			-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+			-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+			transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+			background-color:transparent;
+			color: #b2b2b2;
+			border-radius: 0.35em;
+			border: solid 3px #efefef;
+			color: #787878 !important;
+			cursor: pointer;
+			display: inline-block;
+			border-radius: 0.35em;
+			cursor: pointer;
+			display: inline-block;
+			font-weight: 500;
+			height: calc(2.20em + 12px);
+			line-height: 2.75em;
+			min-width: 9em;
+			padding: 0 1.5em;
+			text-align: center;
+			text-decoration: none;
+			white-space: nowrap;
+			margin-top: 8px;
+			margin-left: 0px;
+			margin-right: 0px;
+	
+		}
+		input[type="submit"]:hover,
+		input[type="reset"]:hover,
+		input[type="button"]:hover,
+		button:hover {
+			border-color: #49bf9d;
+			color: #49bf9d !important;
+		}
+		input[type="submit"].primary:active,
+		input[type="reset"].primary:active,
+		input[type="button"].primary:active,
+		.button.primary:active {
+			background-color: #3eb08f;
+			border-color: #3eb08f;
+		}
+		input[type="submit"].disabled, input[type="submit"]:disabled,
+		input[type="reset"].disabled,
+		input[type="reset"]:disabled,
+		input[type="button"].disabled,
+		input[type="button"]:disabled,
+		.button.disabled,
+		.button:disabled {
+			background-color: #e7e7e7 !important;
+			border-color: #e7e7e7 !important;
+			color: #b2b2b2 !important;
+			cursor: default;
+		}
+		
+		
 
 /* Work Item */
 
